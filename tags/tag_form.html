@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire d'inscription</title>
+        <link type="text/css" rel="stylesheet" href="../styles/style1.css"/>
+    </head>
+    
+    <body>
+     
+    <form> 
+        <fieldset>
+        <legend>Formulaire d'inscription</legend>
+        
+        <fieldset>
+        <legend>Civilité</legend>
+        
+        <input type="radio" id="rd1" name ="choix" checked="checked"/> <label for="rd1">Mr.</label> <br /> 
+		
+        <input type="radio" id="rd2" name ="choix" /><label for=""rd2">Mme.</label><br /> 
+        <input type="radio" id="rd3" name="choix" /><label for="rd3" >Mlle.</label><br />
+       
+        
+        </fieldset>
+        
+        <fieldset>
+        <legend>Identification</legend>
+        <label for="nom">Nom : </label><br/><input type="text" id="nom" value ="Saisir votre nom en majuscule ..." size="55" maxlength="20" />
+        <br/>
+        <br/>
+        <label for="prenom">Prénom: </label><br/><input type="text" id="prenom" maxlength="10" />
+        <br/>
+        <br/>
+        <label for="pass"> Mot de passe: </label><br/><input type="password" id="pass" />
+        <br/>
+        <br/>
+        <label for="mois">Mois et année de naissance</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="mois" id="mois" > 
+            <option >Janvier</option> 
+            <option >Fevrier</option> 
+            <option >Mars</option> 
+            <option >Avril</option> 
+            <option >Mai</option> 
+            <option selected="selected" >Juin</option> 
+            <option >Juillet</option> 
+            <option >Aout</option> 
+            <option >Septembre</option> 
+            <option >Octobre</option> 
+            <option >Novembre</option> 
+            <option >Decembre</option> 
+        
+        </select> 
+        <select name="annee"> 
+            <option >1980</option> 
+            <option >1981</option> 
+            <option >1982</option> 
+            <option >1983</option> 
+            <option >1984</option> 
+            <option >1985</option> 
+            <option >1986</option> 
+            <option >1987</option> 
+            <option >1988</option> 
+            <option >1989</option> 
+            <option >1990</option>       
+        </select>         
+        </fieldset>      
+        <fieldset>
+        <legend>Formation</legend>       
+        <input type="checkbox" checked="checked"/>Licence<br /> 
+        <input type="checkbox" checked="checked"/>Master<br /> 
+        <input type="checkbox" />DEA<br /> 
+        <input type="checkbox" />Doctorat 
+        <br/>
+        <br/>
+        <label for="pays">Lieu de résidence </label>
+        <br/>
+        <select name="pays" id="pays" multiple> 
+           <optgroup label="Europe"> 
+            <option selected="selected" >France</option> 
+            <option >Royaume Uni</option> 
+            <option >Allemagne</option> 
+           </optgroup> 
+          
+           <optgroup label="Amerique du Nord"> 
+            <option >USA</option> 
+            <option >Canada</option> 
+           </optgroup> 
+        </select> 
+         </p> 
+        </fieldset>
+        <fieldset>
+        <legend>Fichiers à envoyer</legend>
+        
+        <label for="fichier">Votre CV:</label>
+        <input type="file" name="fichier" id="fichier" />
+        <br/> 
+        <br/>        
+        <label for="comment">Vos commentaires</label>
+        <br/>
+        <textarea id="comment" cols="40" rows="5"> Ne copier pas votre CV dans cette case ...
+        </textarea>
+        </fieldset>        
+        <br/>
+        <input type="submit" value="Valider" />
+        <input type="reset" value="Annuler" />        
+        </fieldset>
+    </form>
+    <br/>
+        <a href="../index.html">Accueil</a>
+		<br/> ...
+    </body>
+</html>

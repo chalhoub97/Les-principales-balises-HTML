@@ -1,0 +1,52 @@
+p{
+	text-indent:25pt;}
+
+h1 { 
+	color : purple;
+	background-color:  lightgray;
+}
+h2 { 
+	color : #069; 
+	text-decoration:underline;
+}
+ul{
+	list-style-type : circle;
+	}
+ol{
+	list-style-type : upper-Alpha;
+	}
+dt{
+	font-weight : bold;
+	}
+dd{
+	font-style:italic;
+	}
+table{
+	empty-cells:hide;
+	border: #606 3px solid;
+	}
+caption{
+	font-style : italic;
+	}
+td {
+    border: #D8B0FF 1px dashed;
+	}
+th{ 
+	border:  #D8B0FF 2px solid;
+	background-color:#CCC ;
+	}
+fieldset {
+	background-color:#ccc;
+	}
+legend {
+	color:#FF0096;
+	}
+a:visited{
+	color:red;
+	}
+a:active{
+	text-transform:uppercase;
+	}
+a:hover{
+	color:green;
+	}
